@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwind</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>--
+<body class="bg-white text-black grid  w-[100%] grid-cols-[1fr_4fr] grid-rows-[1fr_24fr] md:grid-rows-[1fr_7fr]" >
+
+    <aside class="fixed w-[20%] h-[100%] hidden lg:block text-white col-start-1 col-end-2 row-start-1 row-end-3 bg-blue-500 font-medium " >
+      <div class=" flex items-center px-3 py-5 p-5 text-2xl mb-3">
+        <span><i class="bi bi-microsoft"></i></span>
+        <p class="pl-2 text-lg">Dashboard</p>
+      </div>
+
+      <section class="mb-10">
+        <div>
+          <div class="icondiv">
+             <span><i class="bi bi-house"></i></span>
+             <p>Home</p>
+          </div>
+
+          <div class="icondiv">
+             <span><i class="bi bi-person-lines-fill"></i></span>
+             <p>Profile</p>
+          </div>
+          <div class="icondiv">
+             <span><i class="bi bi-chat-left"></i></span>
+             <p>Messages</p>
+          </div>
+
+          <div class="icondiv">
+             <span><i class="bi bi-clock-history"></i></span>
+             <p>History</p>
+          </div>
+
+          <div class="icondiv">
+              <span><i class="bi bi-journals"></i></span>
+              <p>Tasks</p>
+          </div>
+
+          <div class="icondiv">
+              <span><i class="bi bi-people"></i></span>
+              <p>Communities</p>
+          </div>
+        </div>  
+      </section>
+
+      <section>
+        <div  class="icondiv">
+          <span><i class="bi bi-gear"></i></span>
+          <p>Settings</p>
+       </div>
+
+       <div class="icondiv">
+          <span><i class="bi bi-info-square"></i></span>
+          <p>Support</p>
+       </div>
+
+       <div class="icondiv">
+          <span><i class="bi bi-shield-check"></i></span>
+          <p>Privacy</p>
+         </div>
+      </section>
+    </aside>
+
+    <header class="bg-white col-start-1 lg:col-start-2 col-end-3 row-start-1 row-end-2 " >
+        <section class="flex items-center justify-between w-[100%] h-[8vh] pl-5 pr-5 pt-2">
+          <div>
+            <span class="mr-2"><i class="bi bi-search"></i></span>
+            <input class="w-[45vw] h-[3vh] bg-gray-300 rounded-lg hidden md:block" type="text">
+          </div>
+
+          <div class="flex items-center">
+            <span><i class="bi bi-bell"></i></span>
+            <img class="ml-3 mr-3 rounded-full" src="/image/my photo.jpg" width="35px" alt="">
+            <p class="font-normal text-sm hidden md-block">Morgan oaklay </p>
+          </div>
+        </section>
+
+        <section class="flex items-center justify-between w-[100%] h-[10vh] pl-5 pr-5 pt-2">
+          <div class="flex items-center justify-between ">
+            <img class="mr-2  rounded-full hidden md-block" src="/image/my photo.jpg" width="40px" alt="">
+            <div>
+              <p class="font-medium text-[15px]">Hi</p>
+              <p class="font-bold text-[15px] ">Morgan Oakley</p>
+            </div>
+          </div>
+
+          <div class="butt">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </section>
+    </header>
+
+
+    <main class=  "bg-gray-200 col-start-1  lg:col-start-2 col-end-3 row-start-2 row-end-3 gride  md:grid-cols-[3fr_1fr] grid-cols-1 gap-3" >
+      <section
+       class="col-start-1 col-end-2  grid md:grid-rows-[1fr_11fr] grid-rows-[1fr_24fr]"> 
+      <p class="row-start-1 row-end-2 font-semibold p-5"> Your Projects</p>
+      <div class="row-start-2 row-end-3 grid md:grid-cols-2 grid-cols-1">
+        <div class="item">
+          <p class="font-bold ml-3 ">super cool project</p>
+          <p class="mb-5 ml-3 mr-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ducimus vero vitae corrupti similique blanditiis illo, vel aspernatur tenetur non itaque velit libero distinctio animi </p>
+          <ul class="flex justify-end mr-5 mb-3">
+            <li><i class="bi bi-star"></i></li>
+            <li class="li2"><i class="bi bi-eye"></i></li>
+            <li><i class="bi bi-gender-trans"></i></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <p class="font-bold ml-3 ">super cool project</p>
+          <p class="mb-5 ml-3 mr-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ducimus vero vitae corrupti similique blanditiis illo, vel aspernatur tenetur non itaque velit libero distinctio animi </p>
+          <ul class="flex justify-end mr-5 mb-3">
+            <li><i class="bi bi-star"></i></li>
+            <li class="li2"><i class="bi bi-eye"></i></li>
+            <li><i class="bi bi-gender-trans"></i></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <p class="font-bold ml-3 ">super cool project</p>
+          <p class="mb-5 ml-3 mr-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ducimus vero vitae corrupti similique blanditiis illo, vel aspernatur tenetur non itaque velit libero distinctio animi </p>
+          <ul class="flex justify-end mr-5 mb-3">
+            <li><i class="bi bi-star"></i></li>
+            <li class="li2"><i class="bi bi-eye"></i></li>
+            <li><i class="bi bi-gender-trans"></i></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <p class="font-bold ml-3 ">super cool project</p>
+          <p class="mb-5 ml-3 mr-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ducimus vero vitae corrupti similique blanditiis illo, vel aspernatur tenetur non itaque velit libero distinctio animi </p>
+          <ul class="flex justify-end mr-5 mb-3">
+            <li><i class="bi bi-star"></i></li>
+            <li class="li2"><i class="bi bi-eye"></i></li>
+            <li><i class="bi bi-gender-trans"></i></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <p class="font-bold ml-3 ">super cool project</p>
+          <p class="mb-5 ml-3 mr-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ducimus vero vitae corrupti similique blanditiis illo, vel aspernatur tenetur non itaque velit libero distinctio animi </p>
+          <ul class="flex justify-end mr-5 mb-3">
+            <li><i class="bi bi-star"></i></li>
+            <li class="li2"><i class="bi bi-eye"></i></li>
+            <li><i class="bi bi-gender-trans"></i></li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <p class="font-bold ml-3 ">super cool project</p>
+          <p class="mb-5 ml-3 mr-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis ducimus vero vitae corrupti similique blanditiis illo, vel aspernatur tenetur non itaque velit libero distinctio animi </p>
+          <ul class="flex justify-end mr-5 mb-3">
+            <li><i class="bi bi-star"></i></li>
+            <li class="li2"><i class="bi bi-eye"></i></li>
+            <li><i class="bi bi-gender-trans"></i></li>
+          </ul>
+        </div>
+
+      </div>
+      </section>
+    <section class="md:col-start-2 col-end-3 p-1 md:p-5 "> 
+        <div class="mt-14 shadow-md shadow-gray-500 mr-3 ml-3 rounded-md">
+          <p class="mb-2 text-lg font-medium ml-1 bg-white">Annpuncment</p>
+          <section class="bg-white p-5">
+            <div>
+              <p class="font-medium">site mentanace</p>
+              <p class="text-[13px] mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque obcaecati explicabo minus quae soluta illum praesentium dolores </p>
+              <hr>
+            </div>
+
+            <div>
+              <p class="font-medium">community share day</p>
+              <p  class="text-[13px] mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque obcaecati explicabo minus quae soluta illum praesentium dolores </p>
+              <hr>
+            </div>
+
+            <div>
+              <p class="font-medium">Updated privacy policy</p>
+              <p  class="text-[13px] mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil cumque obcaecati explicabo minus quae soluta illum praesentium dolores </p>
+            </div>
+          </section>
+        </div>
+
+        <div>
+          <p class="mt-5 mb-2 ml-1 text-lg font-medium">Trending</p>
+          <section class="bg-white p-2 pl-5 m-3 h-[55vh] rounded-md shadow-md shadow-gray-500">
+            <div class="flex mb-[15px] mt-[15px]">
+              <img class="mr-2 h-[7vh] rounded-[20px]" src="/image/morgan4.png" width="40px" alt="">
+              <div>
+                <p class="font-bold">@tompson</p>
+                <p>World force project</p>
+              </div>
+            </div>
+
+            <div class="flex mb-[15px]">
+              <img class="mr-2 h-[7vh] rounded-[20px]" src="/image/morgan1.jpg" width="40px"  alt="">
+              <div>
+                <p class="font-bold">@gaybim</p>
+                <p>super cool project</p>
+              </div>
+            </div>
+
+            <div class="flex mb-[15px]">
+              <img class="mr-2 h-[7vh] rounded-[20px]" src="/image/morgan2.png" width="40px"  alt="">
+              <div>
+                <p class="font-bold">@lopay</p>
+                <p>like changing App</p>
+              </div>
+            </div>
+
+            <div class="flex">
+              <img class="mr-2 h-[7vh] rounded-[20px]" src="/image/morgan3.jpg" width="40px"  alt="">
+              <div>
+                <p class="font-bold">@mike</p>
+                <p>No traffice</p>
+              </div>
+            </div>
+          </section>
+        </div>
+    </section>
+  </main>
+</body>
+</html>

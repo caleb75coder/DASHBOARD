@@ -1,0 +1,19 @@
+@import "tailwindcss";
+.item {
+  @apply border-l-6 border-[1px] border-gray-300 border-l-orange-300 m-4 shadow-md shadow-gray-500 pt-5 bg-white;
+}
+
+.icondiv {
+  @apply flex items-center py-2 px-5;
+}
+.icondiv p {
+  @apply pl-3;
+}
+
+.li2 {
+  @apply mx-4;
+}
+
+button {
+  @apply bg-blue-600 rounded-2xl text-white md:w-[70px] w-[65px] items-center p-1;
+}
